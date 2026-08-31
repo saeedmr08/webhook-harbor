@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# build
+.next/
+out/
+build/
+dist/
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+
+# logs / debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# test / coverage
+coverage/
+*.lcov
+
+# typescript
+next-env.d.ts
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# misc
+*.pem
+.vercel
+data/
